@@ -1,0 +1,32 @@
+html{
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+}
+
+body{
+    background-color: #F2E8DF;
+    color: #51635e;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+section{
+    height: 100vh;
+    scroll-snap-align: center;
+}
+
+
+.Aileen-1-hex { color: #86A69D; }
+.Aileen-2-hex { color: #F2B263; }
+.Aileen-3-hex { color: #F2E8DF; }
+.Aileen-4-hex { color: #F2C6C2; }
+.Aileen-5-hex { color: #F28585; }
