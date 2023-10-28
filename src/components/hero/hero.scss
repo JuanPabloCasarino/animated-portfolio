@@ -1,6 +1,52 @@
 .hero{
     height: calc(100vh - 100px);
+    overflow: hidden;
     background: linear-gradient(180deg, #F2E8DF,#e6c8af );
+    position: relative;
+
+    .wrapper{
+        max-width: 1366px;
+        height: 100%;
+        margin: auto;
+        .text_pres{
+        width: 60%;
+           height: 100%;
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           gap: 30px;
+
+            h2{
+                font-size: 30px;
+                color: #eb5e5e;
+                letter-spacing: 8px;
+            }
+            h3{
+                font-size: 90px;
+            }
+            button{
+                width: 70%;
+                font-size: 20px;
+                padding: 20px;
+                border: 1px solid black;
+                border-radius: 10px;
+                background-color: transparent;
+                color: black;
+                cursor: pointer;
+                font-weight:bold;
+            }
+            img{
+            width: 60px;
+           }
+        }
+    }
+    .slidingTextContainer{
+        position: absolute;
+        font-size: 50vh;
+        bottom:-170px;
+        white-space: nowrap;
+        opacity: 10%;
+    }
 }
 
 
