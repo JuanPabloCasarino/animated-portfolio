@@ -42,10 +42,13 @@
     }
     .slidingTextContainer{
         position: absolute;
-        font-size: 50vh;
-        bottom:-170px;
+        font-size: 40vh;
+        bottom:-140px;
         white-space: nowrap;
         opacity: 10%;
+        color: #2d88f1;
+        width: 100%;
+        font-weight: bold;
     }
 }
 
@@ -55,3 +58,4 @@
 .Aileen-3-hex { color: #F2E8DF; }
 .Aileen-4-hex { color: #F2C6C2; }
 .Aileen-5-hex { color: #F28585; }
+

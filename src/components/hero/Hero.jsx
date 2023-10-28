@@ -1,5 +1,5 @@
 import './hero.scss'
-import { motion } from 'framer-motion'
+import { animate, motion } from 'framer-motion'
 const textVariants = {
   initial: {
     x:-500,
@@ -24,6 +24,20 @@ const textVariants = {
   }
 }
 
+const sliderVariants = {
+  initial: {
+    x:0,
+  },
+  animate:{
+    x:'-300%',
+    transition:{
+      repeat:Infinity,
+      repeatType:'mirror',
+      duration:30,
+    },
+  },
+}
+
 const Hero = () => {
   return (
     <div className='hero'>
@@ -35,7 +49,7 @@ const Hero = () => {
           <motion.img src='/scroll.png' variants={textVariants} animate="scrollButton"></motion.img>
         </motion.div>
       </div>
-      <div className="slidingTextContainer">Javascript NodeJS React.js HTML CSS MongoDB</div>
+      <motion.div className="slidingTextContainer" variants={sliderVariants} initial='initial' animate='animate'>Javascript NodeJS ReactJS HTML CSS MongoDB</motion.div>
       
     </div>
   )
