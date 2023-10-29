@@ -1,7 +1,7 @@
 .hero{
     height: calc(100vh - 100px);
     overflow: hidden;
-    background: linear-gradient(180deg, #F2E8DF,#e6c8af );
+    background: linear-gradient(180deg, #013440,#026873  );
     position: relative;
 
     .wrapper{
@@ -18,7 +18,7 @@
 
             h2{
                 font-size: 30px;
-                color: #eb5e5e;
+                color: #FF5A33;
                 letter-spacing: 8px;
             }
             h3{
@@ -28,10 +28,10 @@
                 width: 70%;
                 font-size: 20px;
                 padding: 20px;
-                border: 1px solid black;
+                border: 1px solid white;
                 border-radius: 10px;
                 background-color: transparent;
-                color: black;
+                color: white;
                 cursor: pointer;
                 font-weight:bold;
             }
@@ -46,16 +46,11 @@
         bottom:-140px;
         white-space: nowrap;
         opacity: 10%;
-        color: #2d88f1;
+        color: #FFEC5C;
         width: 100%;
         font-weight: bold;
     }
 }
 
 
-.Aileen-1-hex { color: #86A69D; }
-.Aileen-2-hex { color: #F2B263; }
-.Aileen-3-hex { color: #F2E8DF; }
-.Aileen-4-hex { color: #F2C6C2; }
-.Aileen-5-hex { color: #F28585; }
 
