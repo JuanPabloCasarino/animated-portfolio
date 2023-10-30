@@ -12,14 +12,14 @@ const {scrollYProgress} = useScroll({
 })
 
 const yBg=useTransform(scrollYProgress, [0,1],['0%', '70%'])
-const yText=useTransform(scrollYProgress, [0,1],['0%', '200%'])
+const yText=useTransform(scrollYProgress, [0,1],['0%', '100%'])
 
 return (
 <div className='parallax' style={{
         background:type==='skills'
         ? 'linear-gradient(180deg, #013440,#026873 )'
         :'linear-gradient(180deg, #013440,#038C7F )',}}>
-    <motion.h1 style={{y:yText}}>{type==='skills'? 'Skills':"What We Did?"}</motion.h1>
+    <motion.h1 style={{y:yText}}>{type==='skills'? 'Skills':"Projects"}</motion.h1>
     <motion.div className="mountains"></motion.div>
     <motion.div className="planets" style={{y:yBg,
         backgroundImage:'url(${type==="skills"? "/planets.png":"/sun.png"})'
